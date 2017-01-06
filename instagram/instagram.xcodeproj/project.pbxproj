@@ -12,6 +12,9 @@
 		491253351E1EB8EF009AD436 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491253331E1EB8EF009AD436 /* LaunchScreen.storyboard */; };
 		4912533D1E1EDD56009AD436 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4912533C1E1EDD56009AD436 /* Start.storyboard */; };
 		4912533F1E1EE05B009AD436 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912533E1E1EE05B009AD436 /* SignInViewController.swift */; };
+		491253411E1F0AB8009AD436 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491253401E1F0AB8009AD436 /* SignUpViewController.swift */; };
+		491253441E1F154D009AD436 /* Futura_Condensed_Bold_Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 491253421E1F152C009AD436 /* Futura_Condensed_Bold_Oblique.ttf */; };
+		491253461E1F16A3009AD436 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 491253451E1F167B009AD436 /* Billabong.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		491253361E1EB8EF009AD436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4912533C1E1EDD56009AD436 /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 		4912533E1E1EE05B009AD436 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		491253401E1F0AB8009AD436 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		491253421E1F152C009AD436 /* Futura_Condensed_Bold_Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Futura_Condensed_Bold_Oblique.ttf; sourceTree = "<group>"; };
+		491253451E1F167B009AD436 /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		491253291E1EB8EF009AD436 /* instagram */ = {
 			isa = PBXGroup;
 			children = (
+				491253331E1EB8EF009AD436 /* LaunchScreen.storyboard */,
+				4912533C1E1EDD56009AD436 /* Start.storyboard */,
 				4912532A1E1EB8EF009AD436 /* AppDelegate.swift */,
 				4912533E1E1EE05B009AD436 /* SignInViewController.swift */,
-				4912533C1E1EDD56009AD436 /* Start.storyboard */,
-				491253311E1EB8EF009AD436 /* Assets.xcassets */,
-				491253331E1EB8EF009AD436 /* LaunchScreen.storyboard */,
-				491253361E1EB8EF009AD436 /* Info.plist */,
+				491253401E1F0AB8009AD436 /* SignUpViewController.swift */,
+				491253431E1F1534009AD436 /* Resources */,
 			);
 			path = instagram;
+			sourceTree = "<group>";
+		};
+		491253431E1F1534009AD436 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				491253361E1EB8EF009AD436 /* Info.plist */,
+				491253311E1EB8EF009AD436 /* Assets.xcassets */,
+				491253451E1F167B009AD436 /* Billabong.ttf */,
+				491253421E1F152C009AD436 /* Futura_Condensed_Bold_Oblique.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +144,8 @@
 				491253351E1EB8EF009AD436 /* LaunchScreen.storyboard in Resources */,
 				491253321E1EB8EF009AD436 /* Assets.xcassets in Resources */,
 				4912533D1E1EDD56009AD436 /* Start.storyboard in Resources */,
+				491253461E1F16A3009AD436 /* Billabong.ttf in Resources */,
+				491253441E1F154D009AD436 /* Futura_Condensed_Bold_Oblique.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491253411E1F0AB8009AD436 /* SignUpViewController.swift in Sources */,
 				4912533F1E1EE05B009AD436 /* SignInViewController.swift in Sources */,
 				4912532B1E1EB8EF009AD436 /* AppDelegate.swift in Sources */,
 			);
